@@ -1,0 +1,139 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+/*------  หัวเว็บบบบ  ------*/
+
+nav {
+	background-color:#1E0056;
+	color: #FFFFFF;
+    height: 80px;
+}
+.nav-con {
+    display: flex; 
+	justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+ul.menu{
+    display: flex; 
+	list-style: none;
+}
+
+ul.menu li{
+    margin: 0 3rem;
+}
+
+ul.menu li a {
+    color: #fff;
+	font-size: 22px;
+	text-decoration: none
+	
+}
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;  
+    text-align: left;        
+    padding-left: 10%; 
+	width: 100%;             
+    height: 100%;
+	
+}.banner-info h1 {
+    margin: 5px 0; 
+}
+.banner-info h3 {
+    font-size: 22px;
+    font-weight: normal;         
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+h5{
+	font-size: 1.5rem;
+	color: #fff;
+}
+/*------  หัวเว็บบบบ  ------*/
+
+/*------  บล็อคด้านบน  ------*/
+.banner{
+    height:220px;
+    background-color:#6C1FD9;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.3);
+}
+h1{
+	font-size: 1.9rem;
+	color: #fff;
+}
+h3{
+	font-size: 1rem;
+	color: #fff;
+}
+/*------  บล็อคด้านบน  ------*/
+
+/*------  บล็อคอาชีพ ------*/
+
+
+
+/*------  บล็อคอาชีพ  ------*/
+
+
+
+
+/*------  ท้ายเว็บ   ------*/
+
+
+footer {
+   height: auto;
+   background: #1E0056;
+   padding: 3rem 0;
+   margin-top: 40px;
+}
+
+.footer-con{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   color:#ffffff;
+}
+.footer-items h3 { 
+   mergin-bottom: 2rem;
+}
+
+.footer-items ul{
+   list-style: none;
+}
+
+.footer-items ul li {
+  margin: 1rem 0;
+}
+.footer-items a{
+   color:aliceblue;
+   text-decoration: none;
+}
+.footer-items {
+    color:  #fff;
+	text-decoration: none;
+}
+h3{
+	font-size: 1.5rem;
+	color: #fff;
+}
+/*------  ท้ายเว็บ  ------*/
+
+

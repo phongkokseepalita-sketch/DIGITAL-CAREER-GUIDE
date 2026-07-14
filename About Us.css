@@ -1,0 +1,109 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+/*------  หัวเว็บบบบ  ------*/
+
+nav {
+	background-color:#1E0056;
+	color: #FFFFFF;
+    height: 80px;
+}
+.nav-con {
+    display: flex; 
+	justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+ul.menu{
+    display: flex; 
+	list-style: none;
+}
+
+ul.menu li{
+    margin: 0 2rem;
+}
+
+ul.menu li a {
+    color: #fff;
+	text-decoration: none		
+}
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;  
+    text-align: left;        
+    padding-left: 10%; 
+	width: 100%;             
+    height: 100%;            
+}.banner-info h1 {
+    margin: 5px 0; 
+}
+.banner-info h3 {
+    font-size: 18px;
+    font-weight: normal;         
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+/*------  หัวเว็บบบบ  ------*/
+
+
+
+
+
+
+
+/*------  ท้ายเว็บ   ------*/
+
+
+footer {
+   height: auto;
+   background: #3e009e;
+   padding: 3rem 0;
+   margin-top: 40px;
+}
+
+.footer-con{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   color:#ffffff;
+}
+.footer-items h3 { 
+   mergin-bottom: 2rem;
+}
+
+.footer-items ul{
+   list-style: none;
+}
+
+.footer-items ul li {
+  margin: 1rem 0;
+}
+.footer-items a{
+   color:aliceblue;
+   text-decoration: none;
+}
+.footer-items {
+    color:  #fff;
+	text-decoration: none;
+}
+
+/*------  ท้ายเว็บ  ------*/
+
+
+
+
+
+
